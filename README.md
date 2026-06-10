@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
 
 const DEFAULT_HABITS = [
-  { id: 1, name: "🌅 기상 & 명상", color: "#F59E0B" },
-  { id: 2, name: "🏃 운동", color: "#10B981" },
-  { id: 3, name: "📖 독서 30분", color: "#3B82F6" },
-  { id: 4, name: "✍️ 비전카드 확인", color: "#8B5CF6" },
-  { id: 5, name: "🥗 건강한 식사", color: "#EC4899" },
-  { id: 6, name: "💡 학습 & 성장", color: "#06B6D4" },
-  { id: 7, name: "🤝 관계 & 소통", color: "#F97316" },
-  { id: 8, name: "🌙 수면 루틴", color: "#6366F1" },
+  { id: 1,  name: "🧘 좌선 20분/일",    color: "#8B5CF6" },
+  { id: 2,  name: "📚 배움 2시간/일",   color: "#3B82F6" },
+  { id: 3,  name: "🤝 봉사 1시간/일",   color: "#10B981" },
+  { id: 4,  name: "💪 운동 2시간/일",   color: "#F59E0B" },
+  { id: 5,  name: "💻 디지털 2시간/일", color: "#06B6D4" },
+  { id: 6,  name: "🙏 감사 10분/일",    color: "#EC4899" },
+  { id: 7,  name: "🌙 숙면 6시간/일",   color: "#6366F1" },
+  { id: 8,  name: "🩸 혈당 150/월목",   color: "#EF4444" },
+  { id: 9,  name: "🏃 런닝 30분/주",    color: "#F97316" },
+  { id: 10, name: "🏔️ 산행 2시간/격주", color: "#14B8A6" },
 ];
 
 const MONTH_NAMES = ["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"];
